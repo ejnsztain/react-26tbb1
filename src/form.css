@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  
+  height: 100px;
+  width: 600px;
+}
+
+.content {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  margin: 20px;
+  border-color: aqua;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  height: 50%;
+  width: 60%;
+}
+
+.content:focus {
+  border: 4px;
+  border-color: aqua;
+  border-style: solid;
+}
+
+.add {
+  height: 50px;
+  width: 50px;
+  background-color: aqua;
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(109, 217, 236);
+  border-radius: 5px;
+}

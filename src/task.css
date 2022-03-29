@@ -1,0 +1,38 @@
+.task {
+  display: flex;
+  margin: 5px;
+  border: 3px;
+  border-style: solid;
+  border-color: aqua;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  height: 40px;
+  min-width: 400px;
+}
+
+.taskBtn {
+  display: flex;
+}
+
+.task button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px;
+  border-style: hidden;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.done {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 30px;
+  width: 50px;
+  background-color: rgb(72, 231, 72);
+}
+
+.remove {
+  background-color: red;
+}
